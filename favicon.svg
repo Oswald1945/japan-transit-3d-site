@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#16233a"/></linearGradient>
+ <linearGradient id="near" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2a3a53"/><stop offset="1" stop-color="#18243a"/></linearGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<!-- 奥の山並み -->
+<path d="M0 700 L120 600 L210 650 L330 520 L430 610 L520 560 L640 640 L760 530 L880 620 L1024 560 L1024 1024 L0 1024 Z" fill="#1f2d45"/>
+<!-- 主峰 -->
+<path d="M150 760 L512 300 L874 760 Z" fill="#34455f"/>
+<path d="M512 300 L874 760 L560 760 L600 600 L540 470 Z" fill="#18243a" opacity="0.55"/>
+<path d="M512 300 L585 393 L555 410 L530 385 L505 420 L478 392 L452 405 Z" fill="#c9d3e1"/>
+<!-- 手前の丘 -->
+<path d="M0 820 L180 720 L330 790 L470 735 L620 800 L790 710 L1024 800 L1024 1024 L0 1024 Z" fill="url(#near)"/>
+<!-- 新幹線 -->
+<path d="M-20 905 C 260 845, 520 900, 1044 830" fill="none" stroke="#e8384f" stroke-width="78" stroke-linecap="round"/>
+<!-- 飛行機の弧 -->
+<path d="M150 600 C 300 140, 724 140, 874 600" fill="none" stroke="#f5a524" stroke-width="78" stroke-linecap="round"/>
+<circle cx="150" cy="600" r="62" fill="#0b1220" stroke="#f5a524" stroke-width="40"/>
+<circle cx="874" cy="600" r="62" fill="#0b1220" stroke="#f5a524" stroke-width="40"/>
+</svg>
